@@ -47,6 +47,11 @@ h2 {
     text-align: left;
 }
 
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
 body {
     width: 100%;
     min-height: 100%;
@@ -62,6 +67,25 @@ body {
 .bdy {
     background-color: white;
 }
+
+.btn-sm {
+    color: #ededed;
+    background-color: #ededed;
+    border-color: #ededed;
+    opacity: 0.5;
+}
+
+.btn-sm:hover {
+    opacity: 1.0;
+}
+
+.btn-active {
+    color:#04aaa5;
+    background-color:#04aaa5;
+    border-color:#04aaa5;
+    opacity: 1.0;
+}
+
 
 @media (max-width: 767px) {
     .toolbar, .toolbar a, .landing_page, .landing_page a {
@@ -83,8 +107,6 @@ body {
         background-clip: padding-box;
     }
 }
-
-
 
 
 
