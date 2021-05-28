@@ -86,6 +86,27 @@ body {
     opacity: 1.0;
 }
 
+.comparisons_table {
+    background-color: white;
+    border-radius: 20px;    
+}
+
+.comparisons_table h2 {
+    text-align: center;
+}
+
+.comparisons_table a {
+    opacity: 1.0;
+}
+
+.comparisons_table a:hover {
+    opacity: 0.8;
+}
+
+.comparisons_table img {
+    max-width: 95%;
+}
+
 
 @media (max-width: 767px) {
     .toolbar, .toolbar a, .landing_page, .landing_page a {
@@ -95,6 +116,11 @@ body {
     .bdy {
         background-color: white;
         border-color: #ededed;
+        border-radius: 30px;
+        border-color: #ededed;
+        box-sizing: border-box;
+        border: 20px solid transparent;
+        background-clip: padding-box;
     }
 }
 
