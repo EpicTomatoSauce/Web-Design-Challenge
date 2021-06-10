@@ -1,0 +1,179 @@
+.toolbar {
+    position: relative;
+    right: 0px;
+    background-color: White;
+}
+
+.toolbar a {
+    background-color: White;
+    font-size: 18px;
+}
+
+.landing_page a {
+    width: 200px;
+    background-color: #04aaa5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin: 0px 0px 0px 50px;
+}
+
+.landing_page {
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #04aaa5;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: #ededed;
+}
+
+.container {
+    max-width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.container .tbl {
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* table formatting:  https://www.w3schools.com/css/css_table.asp*/
+#cities {
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+#cities td, #cities th {
+    border: 0px solid #ddd;
+    padding: 5px;
+}
+
+#cities th {
+    text-align: center;
+    background-color: #04aaa5;
+    color: white;
+    opacity: 0.8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cities tr:nth-child(even) {
+    background-color:#ededed;
+}
+
+#cities tr:hover {
+    background-color:#ddd;
+}
+
+.bdy {
+    background-color: white;
+}
+
+.btn-sm {
+    color: #ededed;
+    background-color: #ededed;
+    border-color: #ededed;
+    opacity: 0.5;
+}
+
+.btn-sm:hover {
+    opacity: 1.0;
+}
+
+.btn-active {
+    color:#04aaa5;
+    background-color:#04aaa5;
+    border-color:#04aaa5;
+    opacity: 1.0;
+}
+
+.comparisons_table {
+    background-color: white;
+    border-radius: 20px;    
+}
+
+.comparisons_table h2 {
+    text-align: center;
+}
+
+.comparisons_table a {
+    opacity: 1.0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.comparisons_table a:hover {
+    opacity: 0.8;
+}
+
+.comparisons_table img {
+    max-width: 95%;
+}
+
+
+@media (max-width: 767px) {
+    .toolbar, .toolbar a, .landing_page, .landing_page a {
+        background-color: #04aaa5;
+    }
+
+    .bdy {
+        background-color: white;
+        border-color: #ededed;
+        border-radius: 30px;
+        border-color: #ededed;
+        box-sizing: border-box;
+        border: 20px solid transparent;
+        background-clip: padding-box;
+    }
+}
+
+@media (min-width: 768px) {
+    .bdy {
+        border-radius: 30px;
+        border-color: #ededed;
+        box-sizing: border-box;
+        border: 20px solid transparent;
+        background-clip: padding-box;
+    }
+}
+
+
+
+
+
